@@ -1,0 +1,2 @@
+--baud 460800 write_flash
+0x1000 /home/tayken/esp32/esp32-20220618-v1.19.1.bin

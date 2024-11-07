@@ -1,0 +1,6 @@
+[Unit]
+Description=Program ESP32 device attached to '%I'
+
+[Service]
+User=<user>
+ExecStart=<path>/esp32-program-shim.sh '%I'

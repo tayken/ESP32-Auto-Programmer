@@ -1,0 +1,5 @@
+build/
+logs/
+*.bin
+*.py
+flash_args

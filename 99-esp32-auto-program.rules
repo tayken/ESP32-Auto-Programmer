@@ -1,0 +1,2 @@
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="esp32-auto-program@.service"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d4", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="esp32-auto-program@.service"
