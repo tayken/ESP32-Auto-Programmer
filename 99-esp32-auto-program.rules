@@ -1,2 +1,2 @@
-KERNEL=="ttyACM*", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="esp32-auto-program@.service"
-KERNEL=="ttyUSB*", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="esp32-auto-program@.service"
+SUBSYSTEM=="tty", KERNEL=="ttyACM*", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="esp32-auto-program@.service"
+SUBSYSTEM=="tty", KERNEL=="ttyUSB*", ACTION=="add", TAG+="systemd", ENV{SYSTEMD_WANTS}="esp32-auto-program@.service"
